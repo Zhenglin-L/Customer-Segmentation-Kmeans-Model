@@ -12,25 +12,24 @@ renamed as customers.csv
 
 
 Package List:
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.decomposition import PCA
-from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score
-import helper
-from sklearn.preprocessing import MinMaxScaler
-from collections import Counter
+import numpy as np<br>
+import pandas as pd<br>
+import matplotlib.pyplot as plt<br>
+import seaborn as sns<br>
+from sklearn.decomposition import PCA<br>
+from sklearn.cluster import KMeans<br>
+from sklearn.metrics import silhouette_score<br>
+import helper<br>
+from sklearn.preprocessing import MinMaxScaler<br>
+from collections import Counter<br>
 
 ps: To import imblearn, you need to 'pip install imbalanced-learn' first in the workspace terminal
-import imblearn
-
+import imblearn<br>
 from imblearn.over_sampling import SMOTE<br>
 from imblearn.under_sampling import RandomUnderSampler<br>
-from imblearn.pipeline import Pipeline
-from sklearn.model_selection import train_test_split
-from sklearn import svm
-import os
-from sklearn import metrics
-from pandas import Series
+from imblearn.pipeline import Pipeline<br>
+from sklearn.model_selection import train_test_split<br>
+from sklearn import svm<br>
+import os<br>
+from sklearn import metrics<br>
+from pandas import Series<br>
