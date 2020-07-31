@@ -23,11 +23,11 @@ import helper
 from sklearn.preprocessing import MinMaxScaler
 from collections import Counter
 
-# To import imblearn, you need to 'pip install imbalanced-learn' first in the workspace terminal
+ps: To import imblearn, you need to 'pip install imbalanced-learn' first in the workspace terminal
 import imblearn
 
-from imblearn.over_sampling import SMOTE
-from imblearn.under_sampling import RandomUnderSampler
+from imblearn.over_sampling import SMOTE<br>
+from imblearn.under_sampling import RandomUnderSampler<br>
 from imblearn.pipeline import Pipeline
 from sklearn.model_selection import train_test_split
 from sklearn import svm
